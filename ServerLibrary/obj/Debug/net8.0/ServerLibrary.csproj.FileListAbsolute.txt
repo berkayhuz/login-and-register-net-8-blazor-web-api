@@ -1,0 +1,34 @@
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\bin\Debug\net8.0\ServerLibrary.deps.json
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\bin\Debug\net8.0\ServerLibrary.runtimeconfig.json
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\bin\Debug\net8.0\ServerLibrary.dll
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\bin\Debug\net8.0\ServerLibrary.pdb
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\bin\Debug\net8.0\BaseLibrary.dll
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\bin\Debug\net8.0\BaseLibrary.pdb
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\obj\Debug\net8.0\ServerLibrary.csproj.AssemblyReference.cache
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\obj\Debug\net8.0\ServerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\obj\Debug\net8.0\ServerLibrary.AssemblyInfoInputs.cache
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\obj\Debug\net8.0\ServerLibrary.AssemblyInfo.cs
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\obj\Debug\net8.0\ServerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\obj\Debug\net8.0\ServerLibrary.csproj.CopyComplete
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\obj\Debug\net8.0\ServerLibrary.dll
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\obj\Debug\net8.0\refint\ServerLibrary.dll
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\obj\Debug\net8.0\ServerLibrary.pdb
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\obj\Debug\net8.0\ServerLibrary.genruntimeconfig.cache
+C:\Users\bh\Desktop\EmployeeManagement\ServerLibrary\obj\Debug\net8.0\ref\ServerLibrary.dll
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\bin\Debug\net8.0\ServerLibrary.deps.json
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\bin\Debug\net8.0\ServerLibrary.runtimeconfig.json
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\bin\Debug\net8.0\ServerLibrary.dll
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\bin\Debug\net8.0\ServerLibrary.pdb
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\bin\Debug\net8.0\BaseLibrary.dll
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\bin\Debug\net8.0\BaseLibrary.pdb
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\obj\Debug\net8.0\ServerLibrary.csproj.AssemblyReference.cache
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\obj\Debug\net8.0\ServerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\obj\Debug\net8.0\ServerLibrary.AssemblyInfoInputs.cache
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\obj\Debug\net8.0\ServerLibrary.AssemblyInfo.cs
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\obj\Debug\net8.0\ServerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\obj\Debug\net8.0\ServerLibrary.csproj.CopyComplete
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\obj\Debug\net8.0\ServerLibrary.dll
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\obj\Debug\net8.0\refint\ServerLibrary.dll
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\obj\Debug\net8.0\ServerLibrary.pdb
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\obj\Debug\net8.0\ServerLibrary.genruntimeconfig.cache
+C:\Users\bh\Desktop\EmployeeManagement - Kopya\ServerLibrary\obj\Debug\net8.0\ref\ServerLibrary.dll

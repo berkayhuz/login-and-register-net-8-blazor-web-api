@@ -1,0 +1,83 @@
+﻿@page "/identity/account/register"
+@using Client.Pages.Components
+@using Syncfusion.Blazor.Popups
+@layout AuthenticationLayout
+@inject SfDialogService DialogService
+<div class="container">
+	<div class="row">
+		<div class="col-lg-3">
+		</div>
+		<div class="col-lg-4">
+			<EditForm Enhance Model="User" OnValidSubmit="HandleRegistration">
+				<DataAnnotationsValidator />
+					<div class="card">
+						<div class="card-header">Aramıza hoşgeldin</div>
+						<div class="card-body">
+							<div class="form-group mt-3">
+								<label class="form-label">İsim</label>
+								<InputText @bind-Value="User.Fullname" class=form-control></InputText>
+							</div>
+							<div class="form-group mt-3">
+								<label class="form-label">Email</label>
+								<InputText @bind-Value="User.Email" class=form-control></InputText>
+							</div>
+							<div class="form-group mt-3">
+								<label class="form-label">Parola</label>
+								<input type="password" @bind="User.Password" class="form-control" />
+							</div>
+							<div class="form-group mt-3">
+								<label class="form-label">Tekrar giriniz</label>
+								<input type="password" @bind="User.ConfirmPassword" class="form-control" />
+							</div>
+							<div class="form-group mt-3">
+								@if (ShowLoadingButton)
+								{
+									<ButtonLoadingSpinner></ButtonLoadingSpinner>
+								}
+								else
+								{
+									<button class="btn btn-outline-primary float-end" type="submit">Üye ol</button>
+								}
+						</div>
+						</div>
+						<div class="card-footer">
+							<span class="text-center">
+								Hesabın var mı? |
+								<a class="btn-link" href="identity/account/login">Giriş yap</a>
+							</span>
+							<ValidationSummary />
+						</div>
+					</div>
+				</EditForm>
+			</div>
+		</div>
+		<div class="col-lg-3">
+		</div>
+	</div>
+
+@code {
+
+	public bool ShowLoadingButton { get; set; } = false;
+
+	Register User = new();
+
+	async Task HandleRegistration()
+	{
+		ShowLoadingButton = true;
+		var result = await accountService.CreateAsync(User);
+		if (result.Flag)
+		{
+			await DisplayDialog(result.Message, "Üyelik işlemi başarılı");
+			User = new();
+		}
+		else
+		{
+			await DisplayDialog(result.Message, "Üyelik işlemi başarısız");
+		}
+		ShowLoadingButton = false;
+	}
+	private async Task DisplayDialog(string content, string title)
+	{
+		await DialogService.AlertAsync(content, title);
+	}
+}
